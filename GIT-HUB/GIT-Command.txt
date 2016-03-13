@@ -1,0 +1,2 @@
+ssh -t rsa -C bipulranjankumar@gmail.com
+ssh -T git@github.com
