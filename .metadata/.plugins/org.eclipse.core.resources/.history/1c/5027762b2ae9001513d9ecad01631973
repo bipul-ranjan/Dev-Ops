@@ -1,0 +1,10 @@
+package DevOps;
+
+@Runwith(DevOps.class)
+@DevOps.Options(
+		format={"preety","DevOps:target"},
+		Feature ={"src/DevOps.feature/"}
+		)
+public class Runner {
+
+}

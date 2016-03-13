@@ -1,0 +1,6 @@
+Feature Search google page
+
+Scenario search alphanumeric character
+Given I open google page
+When I search alphanuric character
+Then I didn't get an error

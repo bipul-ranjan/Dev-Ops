@@ -1,2 +1,10 @@
 ssh -t rsa -C bipulranjankumar@gmail.com
 ssh -T git@github.com
+git remote add origin <SSH detail>
+git init <project>
+git add <file or .>
+git commit -m "msg"
+git status
+git log
+git diff
+git diff -cached

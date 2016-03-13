@@ -1,0 +1,29 @@
+package DevOps;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class GoogleSearchStepDefination {
+
+
+@Given("^I open google page$")
+public void opengoogle() throws Throwable {
+    System.out.println("OpenGooglePage");
+    throw new PendingException();
+}
+
+@When("^I search alphanuric character$")
+public void searchalphanumeric() throws Throwable {
+	   System.out.println("SearchAlphanumeric");
+    throw new PendingException();
+}
+
+@Then("^I didn't get an error$")
+public void checkresult() throws Throwable {
+	System.out.println("Error");
+    throw new PendingException();
+}
+	
+}
