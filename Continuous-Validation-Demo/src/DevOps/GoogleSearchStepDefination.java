@@ -1,16 +1,20 @@
 package DevOps;
 
-import cucumber.api.PendingException;
+import org.openqa.selenium.WebDriver;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class GoogleSearchStepDefination {
 
-
+	
+public  WebDriver driver=null; 
+public  String baseUrl; 
+	
 @Given("^I open google page$")
 public void opengoogle() throws Throwable {
-    System.out.println("OpenGooglePage");
+	     System.out.println("OpenGooglePage");
 }
 
 @When("^I search alphanuric character$")
